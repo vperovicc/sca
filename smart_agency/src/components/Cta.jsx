@@ -5,7 +5,7 @@ import {InlineWidget} from 'react-calendly'
 
 const Cta = () => {
   return (
-    <div className='all_cta'>
+    <div id='calendly' className='all_cta'>
     <div className='content_cta'>
         <p className='text_cta'>Unlock your team's potential with expert training and Scrum methodologies. Book a call now to transform your team's performance!</p>
     </div>

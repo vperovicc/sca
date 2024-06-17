@@ -4,11 +4,12 @@ import Instagram from '../assets/instagram.png'
 import TikTok from '../assets/tiktok.png'
 import LinkedIn from '../assets/linkedin.png'
 import Logo from '../assets/logo.png'
+import {Link} from 'react-router-dom';
 
 const Footer = () => (
     <div className='content_footer'>
         <div className='part1_footer'>
-            <img src={Logo} />
+            <Link to='/home'><img src={Logo} /></Link>
             <div className='info_footer'>
                 <div className='letstalk_footer'>
                     <h>LET'S TALKS</h>
@@ -18,10 +19,10 @@ const Footer = () => (
 
                 <div className='terms_footer'>
                     <h>TERMS</h>
-                    <p>Privacy Policy</p>
+                    <Link to='/privacy'><p>Privacy Policy</p></Link>
                     <p>Terms and Conditions</p>
-                    <p>Return and Refund Policy</p>
-                    <p>Delivery Policy</p>
+                    <Link to='/return'><p>Return and Refund Policy</p></Link>
+                    <Link to='/delivery'><p>Delivery Policy</p></Link>
                 </div>
             </div>
         </div>

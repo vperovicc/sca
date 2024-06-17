@@ -5,7 +5,7 @@ import Slika from '../assets/heropng.png'
 
 const About = () => {
   return (
-    <div className='content_about'>
+    <div id='about' className='content_about'>
         <div className='up_about'>
             <div className='left_up_about'>
                 <h className='title_about'>Welcome to Smart Consulting Agency</h>

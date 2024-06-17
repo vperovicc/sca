@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.link_navbar{
+    text-decoration: none;
+}
+
 .logo_navbar {
     width: 10%;
     height: auto;
@@ -21,12 +25,13 @@
 .nav_navbar {
     display: flex;
     width: 60%;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .nav_navbar p {
     margin: 0px 30px;
     color: #3F4967;
+    cursor: pointer;
 }
 
 .button_navbar {
@@ -38,6 +43,7 @@
     color: white;
     border-radius: 50px;
     margin-right: 1%;
+    cursor: pointer;
 }
 
 .button_navbar p {

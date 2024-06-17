@@ -32,7 +32,7 @@ const serviceData = [
 
 const Services = () => {
   return (
-    <div className='content_services'>
+    <div id='services' className='content_services'>
         {serviceData.map((service, index) => (
         <Service
           key={index}
