@@ -1,0 +1,164 @@
+/* Navbar.css */
+.container_navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    height: 80px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    position: relative;
+}
+
+.logo_navbar {
+    width: 10%;
+    height: auto;
+    margin-left: 1%;
+}
+
+.nav_navbar {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.nav_navbar p {
+    margin: 0px 30px;
+    color: #3F4967;
+}
+
+.button_navbar {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #F58131;
+    color: white;
+    border-radius: 50px;
+    margin-right: 1%;
+}
+
+.button_navbar p {
+    margin: 0px;
+    padding: 0px;
+    padding: 10px;
+}
+
+.burger_icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 1720px) {
+    .container_navbar {
+        font-size: 18px;
+        height: 65px;
+    }
+
+    .nav_navbar p {
+        margin: 0px 20px;
+    }
+
+    .logo_navbar {
+        width: 12%;
+    }
+
+    .button_navbar {
+        width: 12%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .container_navbar {
+        font-size: 14px;
+    }
+
+    .nav_navbar p {
+        margin: 0px 15px;
+    }
+
+    .logo_navbar {
+        width: 13%;
+    }
+
+    .button_navbar {
+        width: 13%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container_navbar {
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .nav_navbar p {
+        margin: 0px 10px;
+    }
+
+    .logo_navbar {
+        width: 15%;
+    }
+
+    .button_navbar {
+        width: 15%;
+    }
+}
+
+@media (max-width: 770px) {
+    .container_navbar {
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .nav_navbar p {
+        margin: 0px 7px;
+    }
+
+    .logo_navbar {
+        width: 14%;
+    }
+
+    .button_navbar {
+        width: 14%;
+    }
+}
+
+@media (max-width: 670px) {
+    .nav_navbar {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo_navbar{
+        width: 20%;
+    }
+
+    .nav_navbar.open {
+        display: flex;
+        z-index: 1;
+    }
+
+    .nav_navbar p {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .button_navbar {
+        display: none;
+    }
+
+    .burger_icon {
+        display: block;
+        margin-right: 1%;
+    }
+}

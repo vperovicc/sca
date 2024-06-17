@@ -1,0 +1,57 @@
+.title_title{
+    color: #3F4967;
+    font-size: 42px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:2200px){
+    .title_title{
+        font-size: 38px;
+    }
+}
+
+@media (max-width:1800px){
+    .title_title{
+        font-size: 34px;
+    }
+}
+
+@media (max-width:1500px){
+    .title_title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1300px){
+    .title_title{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1100px){
+    .title_title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:860px){
+    .title_title{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:670px){
+    .title_title{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}

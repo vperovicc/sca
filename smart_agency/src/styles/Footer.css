@@ -1,0 +1,269 @@
+.content_footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+}
+
+.content_footer p{
+    font-size: 22px;
+}
+
+.line_footer{
+    background-color: black;
+    width: 90%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.part1_footer{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part1_footer img{
+    width: 300px;
+    height: 80px;
+}
+
+.letstalk_footer{
+    margin-left: 5%;
+}
+
+.letstalk_footer h{
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+    color: #F58131;
+}
+
+.terms_footer h{
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+    color: #F58131;
+}
+
+.part2_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;    
+    margin-bottom: 1%;
+}
+
+.social_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.social_footer img{
+    width: 65px;
+    height: 65px;
+    margin-right: 10%;
+}
+
+@media (max-width: 2200px) {
+    .content_footer p{
+        font-size: 20px;
+    }
+
+    .social_footer img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .part1_footer h{
+        font-size: 38px;
+    }
+}
+@media (max-width: 1800px) {
+    .content_footer p{
+        font-size: 18px;
+    }
+
+    .social_footer img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .part1_footer h{
+        font-size: 36px;
+    }
+}
+@media (max-width: 1500px) {
+
+    .content_footer p{
+        font-size: 16px;
+    }
+
+    .social_footer img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .part1_footer img{
+        width: 270px;
+        height: 70px;
+    }
+
+    .part1_footer h{
+        font-size: 32px;
+    }
+}
+@media (max-width: 1300px) {
+
+    .content_footer p{
+        font-size: 14px;
+    }
+
+    .social_footer img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .part1_footer h{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1100px) {
+    .content_footer p{
+        font-size: 12px;
+    }
+
+    .social_footer img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .part1_footer img{
+        width: 220px;
+        height: 60px;
+    }
+
+    .part1_footer h{
+        font-size: 28px;
+    }
+}
+@media (max-width: 860px) {
+    .content_footer p{
+        font-size: 10px;
+    }
+
+    .social_footer img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .part1_footer img{
+        width: 220px;
+        height: 60px;
+    }
+
+    .part1_footer h{
+        font-size: 26px;
+    }
+}
+@media (max-width: 670px) {
+    .content_footer{
+        width: 100%;
+    }
+
+    .part1_footer{
+        margin-top: 5%;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part1_footer img{
+        width: 270px;
+        height: 80px;
+    }
+
+    .info_footer{
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_footer h{
+        font-size: 38px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .info_footer p{
+        font-size: 20px;
+    }
+
+    .letstalk_footer{
+        width: 50%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .terms_footer{
+        width: 50%;
+        text-align: center;
+    }
+
+    .part2_footer{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .part2_footer p{
+        font-size: 20px;
+    }
+
+    .social_footer img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 550px) {
+    .content_footer p{
+
+        font-size: 18px;
+    }
+}
+@media (max-width: 420px) {
+
+    .content_footer p{
+
+        font-size: 14px;
+    }
+
+    .social_footer img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .content_footer p{
+
+        font-size: 12px;
+    }
+
+    .social_footer img{
+        width: 35px;
+        height: 35px;
+    }
+}
