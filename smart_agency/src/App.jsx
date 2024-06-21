@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import ReturnPolicy from './pages/ReturnPolicy.jsx'
 import DeliveryPolicy from './pages/DeliveryPolicy.jsx'
+import TermsPolicy from './pages/TermsPolicy.jsx'
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route path='/privacy' element={<PrivacyPolicy/>}/>
         <Route path='/return' element={<ReturnPolicy/>}/>
         <Route path='/delivery' element={<DeliveryPolicy/>}/>
+        <Route path='/terms' element={<TermsPolicy/>}/>
+        
         </Routes>
       </BrowserRouter>
     </div>

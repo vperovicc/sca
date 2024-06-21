@@ -12,8 +12,12 @@
     position: relative;
 }
 
+
+
 .link_navbar{
     text-decoration: none;
+    display: flex; /* Ensure the link takes only the necessary space */
+    align-items: center; /* Center align the image inside the link */
 }
 
 .logo_navbar {

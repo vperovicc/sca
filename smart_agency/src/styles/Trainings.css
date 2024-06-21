@@ -1,32 +1,113 @@
-.content_trainings{
+.content_trainings {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    flex-direction: row;
     display: flex;
     font-family: 'Montserrat';
     color: #3F4967;
     font-weight: 600;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
 }
 
-.box_trainings{
+.box_trainings {
+    position: relative; /* Required for the padding trick */
     border-radius: 30px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-    margin: 2%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
     width: 30%;
-    height: auto;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    padding-top: 30%; /* This makes the element's height equal to its width */
+    overflow: hidden; /* Ensures content doesn't overflow the box */
 }
 
-.box_trainings p{
+.box_trainings img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.box_trainings p {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
     font-size: 26px;
-    width: 80%;
-    margin-bottom: 0px;
+    width: 90%;
+    margin: 0;
+}
+
+@media (max-width: 2200px) {
+    .box_trainings p{
+        font-size: 22px;
+    }
+}
+@media (max-width: 1800px) {
+    .box_trainings p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1500px) {
+    .box_trainings p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1300px) {
+    .box_trainings p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1100px) {
+    .box_trainings p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 860px) {
+    .box_trainings p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box_trainings {
+        width: 45%; /* Adjust the width for medium screens */
+        padding-top: 45%; /* Maintain square aspect ratio */
+    }
+}
+
+@media (max-width: 670px) {
+    .box_trainings {
+        width: 100%; /* Full width for small screens */
+        margin: 2% 0; /* Ensure vertical margin for stacked boxes */
+        padding-top: 100%; /* Maintain square aspect ratio */
+    }
+
+    .box_trainings p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .box_trainings p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 420px) {
+    .box_trainings p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .box_trainings p{
+        font-size: 12px;
+    }
 }

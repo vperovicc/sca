@@ -20,7 +20,7 @@ const Footer = () => (
                 <div className='terms_footer'>
                     <h>TERMS</h>
                     <Link to='/privacy'><p>Privacy Policy</p></Link>
-                    <p>Terms and Conditions</p>
+                    <Link to='/terms'><p>Terms and Conditions</p></Link>
                     <Link to='/return'><p>Return and Refund Policy</p></Link>
                     <Link to='/delivery'><p>Delivery Policy</p></Link>
                 </div>
